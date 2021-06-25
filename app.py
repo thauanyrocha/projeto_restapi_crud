@@ -31,4 +31,4 @@ def delete_usuario(id):
     dados = UsuarioController.delete(id)
     return Resposta.newResponse(dados["status"], dados["conteudo"], dados["mensagem"])
 
-app.run()
+#app.run()
